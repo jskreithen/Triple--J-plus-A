@@ -1,0 +1,28 @@
+.main_profile {
+    background-image: url("http://media.istockphoto.com/photos/endless-3d-maze-with-white-background-picture-id476658556?k=6&m=476658556&s=170667a&w=0&h=sKGazS1DW_SJWkC2_-uPeDKQpdcfCnuh3UKnApcAbI8=");
+    padding: 200px;
+    position: relative;
+}
+
+h2 {
+    color: red;
+    font-size: 48px;
+}
+
+.text {
+    text-align: left;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    clear: both;
+    height: 200px;
+}
+
+.img-circle {
+    left-margin: 200px;
+}
+.footer{
+
+}
