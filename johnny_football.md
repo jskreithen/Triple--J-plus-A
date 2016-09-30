@@ -9,12 +9,9 @@
 <body>
 	<div style="padding:50px;"class="container">
 		<!-- Back to index.html -->
-
-
-		<a href="../index.html" class="btn btn-info">back</a>
-
+		<a href="" class="btn btn-info">back</a>
 		<!-- Employee Name -->
-		<h2>Davey Chase</h2>
+		<h2>Johnny Football</h2>
 
 		<div class="media">
 			<div class="media-left">
@@ -22,20 +19,21 @@
 			</div>
 			<div class="media-body">
 				<!-- Employee Position -->
-				<h4 class="media-heading">Project Lead</h4>
+				<h4 class="media-heading">Senior Manager</h4>
 				<div>
 					<!-- Employee Bio -->
 					<h5>Age</h5>
 					<p>
-						27
+						32
 					</p>
 					<h5>Email</h5>
 					<p>
-						dchase@branstation.io
+						jfootball@branstation.io
 					</p>
 					<h5>Bio</h5>
 					<p>
-						Movie enthusiast, gamer, chears for Blue Jays!!
+						Storyfinder, Accountant, Truck Driver, Han Solo's College Roommate. I yell at inanimate objects.
+					</p>
 				</div>
 			</div>
 	    </div>
