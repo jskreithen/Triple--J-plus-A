@@ -1,0 +1,98 @@
+body {
+	background-color: #0093ad;
+}
+
+.container-fluid {
+	padding: 0px;
+}
+
+.header h1{
+	display: inline-block;
+	color: red;
+	background-color: #EEE;
+	padding: 0 10px;
+	margin: 0px;
+}
+	
+.row {
+	padding: 0px 30px;
+}
+	
+
+.about-background {
+	background-color: #9e9e9e;
+	margin-bottom: 8px;
+}
+
+.header .about-background:first-child {
+	
+}
+
+.about-background p {
+	background-color: #0093ad;
+	display: inline-block;
+	padding: 0px 10px;
+	margin: 0px;
+}
+
+.about-background p a{
+	color: purple;
+}
+
+.about-background p a:hover {
+	text-decoration: line;
+	color:white;
+}
+
+.circle{
+	border:20px solid rgba(0, 0, 0, 0.5);
+	-webkit-background-clip: padding-box;
+    background-clip: padding-box;
+	border-radius: 50%;
+	background-image: url("https://files.slack.com/files-tmb/T2APMTZLY-F2G3RCU5N-6a29fe6e6a/jefferykreithen_720.jpg");
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+	margin-top: 100px;
+	position: relative;
+}
+.small-circle{
+	height: 200px;
+	width: 200px;
+	border:20px solid rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	background-color: #EEE;
+	position: absolute;
+	left: 40%;
+	top: 10%;
+	background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.small-circle p{
+	padding: 37px 15px 15px 15px;
+	font-size: 12px;
+	text-align: center
+}
+.info{
+	margin: 120px 30px;
+	border: 20px solid rgba(0, 0, 0, 0.5);
+	padding: 30px;
+	display: inline-block;
+}
+.maze{
+	display: block;
+	height: 300px;
+	width: 100%;
+	background-image: url("http://media.istockphoto.com/photos/endless-3d-maze-with-white-background-picture-id476658556?k=6&m=476658556&s=170667a&w=0&h=sKGazS1DW_SJWkC2_-uPeDKQpdcfCnuh3UKnApcAbI8=");
+
+}
+
+
+
+@media (max-width:800px) {
+.circle {
+width:200px;
+height:200px;
+}
+}
